@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4d0356cd-df12-4581-acee-a73f87a27e3d",
+    "title": "JavaScript forEach()",
+    "content": "The forEach() method in JavaScript is a powerful tool for working with arrays, but it's worth noting that it has a few limitations. One limitation is that it doesn't directly support modifying the original array during iteration. For example, if you want to double each element in an array using forEach(), you cannot simply update the element within the callback function. This is because forEach() doesn't return a new array or allow you to modify the original array directly.\n\nTo achieve the desired effect of doubling each element, you would need to use other array methods in conjunction with forEach() or employ a different approach altogether. One option is to create a new array and push the doubled values into it within the forEach() loop. Another option is to use the map() method, which creates a new array by applying a transformation function to each element. With map(), you can easily double the values and obtain a new array with the modified elements. So, while forEach() is excellent for iterating over an array, it may require additional steps to achieve specific modifications or transformations.",
+    "category": "JavaScript",
+    "createdAt": "2023-05-14T04:00:40.568Z",
+    "updatedAt": "2023-05-14T05:33:08.080Z"
+  },
+  {
+    "id": "c9c73fdf-9fc3-43ea-9a35-0088f7965dde",
+    "title": "Bootstrap vs Tailwindcss",
+    "content": "Bootstrap and Tailwind CSS are two popular front-end frameworks used for building responsive web applications. Both frameworks offer pre-designed styles and layout components, saving time and effort in the development process.\n\nBootstrap follows a mobile-first design philosophy, meaning its default styles and layout are optimized for mobile devices. On the other hand, Tailwind CSS adopts a utility-first approach. It provides a wide range of low-level, highly customizable CSS classes that allow developers to build custom styles and layouts to suit their specific needs.\n\nWhen it comes to size and performance, Bootstrap is a larger framework with an extensive set of features and styles. This makes it suitable for complex projects that require a variety of design elements. However, the increased functionality can result in slower performance and longer page load times. In contrast, Tailwind CSS is smaller and faster, but it may require more customization and styling work from the developer.\n\nIn terms of ease of use, Bootstrap offers a collection of pre-designed components that can be easily customized and integrated into projects. It benefits from a large community and an abundance of documentation and tutorials available online. On the other hand, Tailwind CSS demands more effort for customization and styling, but it provides greater flexibility and control over the visual aspects of the project.\n\nChoosing between Bootstrap and Tailwind CSS ultimately depends on the specific requirements and preferences of the project. Bootstrap is well-suited for projects where ease of use and ready-made components are important, while Tailwind CSS offers more flexibility and customization options for developers seeking complete control over their designs.",
+    "category": "CSS",
+    "createdAt": "2023-05-14T05:34:42.599Z",
+    "updatedAt": "2023-05-14T05:34:42.599Z"
+  },
+  {
+    "id": "97dd2332-df78-4a10-af8b-b56abd854156",
+    "title": "Conditional Rendering",
+    "content": "Conditional rendering is a technique used in web development to dynamically display different content or components based on specific conditions. It enables the user interface to adapt and show relevant information based on various criteria. Conditional rendering can be implemented using different approaches.\n\nOne common method is using an if statement to evaluate a condition and render specific content or components accordingly. This allows you to display alternative views based on the result of the condition.\n\nAnother approach is to use a ternary operator (? :) to concisely test a condition and render different content based on the evaluation. This can be useful for simple conditional rendering scenarios.\n\nIn more complex cases, a switch statement can be employed to test multiple conditions and render different content based on each condition. This provides a structured way to handle various cases and display the appropriate output.\n\nIt's important to use conditional rendering thoughtfully, as excessive use can make the code more complex and harder to maintain. It is generally recommended to keep the conditional rendering to a minimum and use it only when necessary, ensuring code readability and maintainability. By effectively leveraging conditional rendering, you can create dynamic user interfaces that adapt to different scenarios and enhance the user experience.",
+    "category": "JavaScript",
+    "createdAt": "2023-05-14T05:36:41.552Z",
+    "updatedAt": "2023-05-14T05:36:41.552Z"
+  },
+  {
+    "id": "f9d2815c-3bf5-48f6-adbc-a835d448428a",
+    "title": "Introduction to Props",
+    "content": "Props, short for properties, play a fundamental role in React.js. They allow you to pass data from one component to another, enabling communication and sharing of information between components. With props, you can customize and configure components dynamically, making them versatile and reusable.\n\nWhen a parent component renders a child component, it can pass data to the child component through props. These props are like parameters that define how the child component should behave or what content it should display. The child component can then access and utilize the passed props to render its output accordingly.\n\nProps are typically defined in the parent component when rendering the child component. They can be any valid JavaScript value, including strings, numbers, objects, or even functions. Once passed, the child component can access the props using this.props in class components or props in functional components.\n\nBy leveraging props, you can create dynamic and interactive applications. Components can be easily customized and reused by passing different sets of props, allowing for flexible and modular development. Understanding and effectively utilizing props is essential for building scalable and maintainable React applications.",
+    "category": "React",
+    "createdAt": "2023-05-14T05:37:57.841Z",
+    "updatedAt": "2023-05-14T05:37:57.841Z"
+  },
+  {
+    "id": "fd836b67-11d5-4f9b-b1da-bcbf642235ef",
+    "title": " MVC architecture in Express.js",
+    "content": "Express.js follows the MVC (Model-View-Controller) architecture pattern, providing a structured approach to web application development. MVC separates the application into three components: the Model handles data and business logic, the View presents the user interface, and the Controller acts as the intermediary.\n\nIn Express.js, the Model interacts with the database, handling data manipulation and validation. The View generates the user interface using template engines like EJS or Pug. Controllers, implemented as middleware functions, handle requests, update the Model, and pass data to the appropriate View.\n\nMVC promotes code organization, modularity, and reusability. It enhances maintainability by decoupling components and facilitating collaboration among developers. Express.js MVC architecture is ideal for building scalable and maintainable web applications, ensuring efficient development practices and high-quality results.",
+    "category": "Express.js",
+    "createdAt": "2023-05-14T05:39:52.264Z",
+    "updatedAt": "2023-05-14T05:39:52.264Z"
+  },
+  {
+    "id": "94381118-1858-4cd8-9404-ef1089ce57fb",
+    "title": "CSS Selectors",
+    "content": "CSS selectors are essential tools for applying styles to specific elements in an HTML document. They define patterns that determine which elements will be affected by the styles. There are different types of CSS selectors available.\n\nThe element selector is a basic selector that targets elements by their tag names. For example, using \"h1\" as a selector will style all <h1> heading elements.\n\nClass selectors are used to target elements based on their assigned class attribute. By adding a class name to an element, styles can be applied specifically to elements with that class. The selector \".classname\" selects elements with the specified class.\n\nID selectors are similar to class selectors but target elements by their unique ID attribute. An ID selector is denoted by the \"#\" symbol followed by the ID value. For instance, \"#myElement\" targets the element with the ID of \"myElement\".\n\nCSS also offers advanced selectors for more precise targeting. Attribute selectors select elements based on attribute values, like [type=\"submit\"] for targeting input elements with the \"submit\" type. Pseudo-classes select elements based on state or position, such as \":hover\" for selecting elements when the user hovers over them. Pseudo-elements style specific parts of an element, such as \"::before\" for adding content before an element.\n\nCSS selectors provide powerful ways to apply styles selectively. By understanding and using different selectors, developers can precisely target and style elements, resulting in visually appealing and well-designed web pages.",
+    "category": "CSS",
+    "createdAt": "2023-05-14T05:42:18.103Z",
+    "updatedAt": "2023-05-14T05:42:18.103Z"
+  }
+]
