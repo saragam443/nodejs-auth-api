@@ -33,8 +33,8 @@ This project implements a user authentication and authorization system using Nod
 
 Create a .env file in the root directory and configure the following environment variables:
 ```bash
-   ACCESS_TOKEN_SECRET=your_access_token_secret
-   REFRESH_TOKEN_SECRET=your_refresh_token_secret
+ACCESS_TOKEN_SECRET=your_access_token_secret
+REFRESH_TOKEN_SECRET=your_refresh_token_secret
 ```
 
    
